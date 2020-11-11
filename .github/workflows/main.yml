@@ -1,0 +1,29 @@
+name: Currency Converter NuGet package Generation
+
+on:
+  push:
+    branches: 
+      - master
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+    name: Update NuGet
+
+    steps:
+    - uses: actions/checkout@v1
+      
+    - name: Install NuGet client
+      uses: nuget/setup-nuget@v1
+      
+    - name: Build a solution and generate a NuGet package
+      env: 
+        GITHIB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: dotnet build --configuration Release
+      shell: bash
+
+    - name: Push the generated package to a GitHub registry
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}    
+      run: nuget push ..\currency-converter\HappyTravel.CurrencyConverter\bin\Release\*.nupkg -Source "github"
