@@ -63,4 +63,4 @@ steps:
     webhook_token:
       from_secret: DISCORD_WEBHOOK_PR_TOKEN
   when:
-    status: [success, failure]    
+    status: [success, failure]
