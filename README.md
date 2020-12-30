@@ -45,7 +45,7 @@ public class Class1
 
 ## Automation
 
-New package version is automatically published to (github packages)[https://github.com/features/packages] after changes in master branch.
+New package version is automatically published to [github packages](https://github.com/features/packages) after changes in master branch.
 
 
 ## Dependencies
