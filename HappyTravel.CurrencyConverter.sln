@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappyTravel.CurrencyConverter", "HappyTravel.CurrencyConverter\HappyTravel.CurrencyConverter.csproj", "{87596F1A-4E87-4347-AB2E-3AC2350AF612}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappyTravel.CurrencyConverterTests", "HappyTravel.CurrencyConverterTests\HappyTravel.CurrencyConverterTests.csproj", "{CAA41846-8FFB-48A4-809D-04F9F93005D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappyTravel.CurrencyConverterTests", "HappyTravel.CurrencyConverter.UnitTests\HappyTravel.CurrencyConverterTests.csproj", "{CAA41846-8FFB-48A4-809D-04F9F93005D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
