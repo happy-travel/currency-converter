@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using HappyTravel.CurrencyConverter.Infrastructure;
 using HappyTravel.Money.Enums;
 
-namespace HappyTravel.CurrencyConverterTests
+namespace HappyTravel.CurrencyConverter.UnitTests
 {
     public class ConverterTestsFixture : IDisposable
     {
