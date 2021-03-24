@@ -1,11 +1,10 @@
 using System;
 using System.Collections.Generic;
-using HappyTravel.CurrencyConverter;
 using HappyTravel.Money.Enums;
 using HappyTravel.Money.Models;
 using Xunit;
 
-namespace HappyTravel.CurrencyConverterTests
+namespace HappyTravel.CurrencyConverter.UnitTests
 {
     public class ConverterTests : IClassFixture<ConverterTestsFixture>
     {

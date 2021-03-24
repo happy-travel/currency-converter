@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappyTravel.CurrencyConverter", "HappyTravel.CurrencyConverter\HappyTravel.CurrencyConverter.csproj", "{87596F1A-4E87-4347-AB2E-3AC2350AF612}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappyTravel.CurrencyConverterTests", "HappyTravel.CurrencyConverterTests\HappyTravel.CurrencyConverterTests.csproj", "{CAA41846-8FFB-48A4-809D-04F9F93005D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappyTravel.CurrencyConverter.UnitTests", "HappyTravel.CurrencyConverter.UnitTests\HappyTravel.CurrencyConverter.UnitTests.csproj", "{DF710354-E9AF-470E-BE03-8C8692331841}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{87596F1A-4E87-4347-AB2E-3AC2350AF612}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87596F1A-4E87-4347-AB2E-3AC2350AF612}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87596F1A-4E87-4347-AB2E-3AC2350AF612}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CAA41846-8FFB-48A4-809D-04F9F93005D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CAA41846-8FFB-48A4-809D-04F9F93005D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CAA41846-8FFB-48A4-809D-04F9F93005D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CAA41846-8FFB-48A4-809D-04F9F93005D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF710354-E9AF-470E-BE03-8C8692331841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF710354-E9AF-470E-BE03-8C8692331841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF710354-E9AF-470E-BE03-8C8692331841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF710354-E9AF-470E-BE03-8C8692331841}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
