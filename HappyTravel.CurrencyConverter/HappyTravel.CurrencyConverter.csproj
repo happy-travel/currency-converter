@@ -1,16 +1,17 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>netcoreapp3.1;net5.0</TargetFrameworks>
+    <TargetFrameworks>net5.0</TargetFrameworks>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Company>Happytravel.com</Company>
     <Authors>Kirill Taran</Authors>
     <PackageProjectUrl>https://github.com/happy-travel/currency-converter</PackageProjectUrl>
+    <PackageReleaseNotes>Updated HappyTravel.Money package version</PackageReleaseNotes>
     <Description>The currency conversion library</Description>
     <RepositoryUrl>https://github.com/happy-travel/currency-converter.git</RepositoryUrl>
     <PackageTags>currency conversion currency-conversion</PackageTags>
-    <Version>1.0.0.1</Version>
+    <Version>1.0.2</Version>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="HappyTravel.Money" Version="1.3.1" />
