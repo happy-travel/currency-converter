@@ -20,13 +20,6 @@ namespace HappyTravel.CurrencyConverter
         }
 
 
-        public CurrencyConverterFactory(string optionsJson)
-        {
-            _options = ConversionBufferOptionsFactory.CreateFromString(optionsJson) ??
-                throw new ArgumentNullException(nameof(optionsJson));
-        }
-
-
         public CurrencyConverter Create(in decimal rate, Currencies sourceCurrency, Currencies targetCurrency)
         {
             CurrencyConverter.CheckPreconditions(in rate, sourceCurrency, targetCurrency);
